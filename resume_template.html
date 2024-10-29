@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select a Resume Template</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .template-options {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .template {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin: 10px;
+      padding: 20px;
+      width: 300px;
+      text-align: center;
+      transition: box-shadow 0.3s;
+    }
+
+    .template:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .template img {
+      width: 100%;
+      border: 2px solid #ddd;
+      transition: transform 0.3s;
+    }
+
+    .template:hover img {
+      transform: scale(1.05);
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Select a Resume Template</h1>
+  <div class="template-options">
+    <div class="template">
+      <img src="C:\Users\karri\OneDrive\Pictures\Screenshots\Screenshot 2023-12-05 225824.png" alt="Template 1"/>
+      <button onclick="selectTemplate(1)">Select</button>
+    </div>
+
+    <div class="template">
+      <img src="C:\Users\karri\OneDrive\Documents\160221748044\mini_project\Screenshot 2023-12-16 103555.png" alt="Template 2"/>
+      <button onclick="selectTemplate(2)">Select</button>
+    </div>
+
+    <div class="template">
+      <img src="C:\Users\karri\OneDrive\Pictures\Saved Pictures\resume-template1.png" alt="Template 3"/>
+      <button onclick="selectTemplate(3)">Select</button>
+    </div>
+
+    <div class="template">
+      <img src="C:\Users\karri\OneDrive\Pictures\Saved Pictures\reume-template3.png" alt="Template 4"/>
+      <button onclick="selectTemplate(4)">Select</button>
+    </div>
+  </div>
+
+  <script>
+    function selectTemplate(templateId) {
+      if (templateId === 1) {
+        window.location.href = 'resume_html.html';
+      } else if (templateId === 2) {
+        window.location.href = 'temp2.html';
+      } else if (templateId === 3) {
+        window.location.href = 'resume_html.html';
+      } else if (templateId === 4) {
+        window.location.href = 'temp2.html';
+      }
+    }
+  </script>
+  
+</body>
+</html>
