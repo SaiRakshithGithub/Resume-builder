@@ -1,2 +1,2 @@
 # Resume-builder
-HTML,CSS,JavaScript
+Developed a resume builder application using HTML, CSS, JavaScript
