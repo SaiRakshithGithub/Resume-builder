@@ -1,0 +1,191 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.head {
+    justify-content: space-between;
+    align-items: center;
+    margin-left: initial;
+}
+
+#logo {
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#title {
+    text-align: center;
+    display: block;
+    margin: 20px 0;
+    font-size: 2em;
+}
+
+.showyou {
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+}
+
+#sy {
+    line-height: 1.6;
+}
+
+.features {
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.features img {
+    border-radius: 5px;
+}
+
+#highlights {
+    margin-top: 20px;
+}
+
+p {
+    padding: 20px;
+    margin: 4px;
+    border: solid 2px #333;
+    border-radius: 5px;
+}
+
+.templates {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.template-link {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.features {
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.feature-content {
+    display: flex;
+    align-items: center;
+}
+
+.resume-photo {
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.feature-highlights {
+    margin-left: 200px;
+}
+
+.feature-highlights p {
+    padding: 10px;
+    margin: 4px;
+    border: solid 2px #ddd;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    color: rgb(0, 0, 0)
+}
+
+.feature-highlights-1p {
+    background-color: rgb(25, 0, 255);
+}
+
+#create{
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: "Muli",sans-serif;
+    font-weight: 400;
+    background-color: rgb(0, 13, 255);
+    color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    font-size: 22px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer {
+    background-color: rgb(70, 69, 69);
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 250px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.contact-info {
+    max-width: 300px;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+.navigation-buttons {
+    margin-left: auto;
+}
+
+.head {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
